@@ -1,0 +1,154 @@
+body {
+    margin: 0;
+    font-family: Helvetica;
+    font-size: 22px;
+    color: steelblue;
+    background-color: rgb(178, 199, 223);
+    text-align: center;
+  }
+  a  {
+    color: steelblue;
+  }
+  h2, h3, h4  {
+    margin: 0;
+    padding: 10px;    
+  }
+
+  .flex-container  {  
+    justify-content: center;
+    flex-wrap: wrap; 
+    display: flex;
+  }
+ 
+  header {
+    background-color: black;  
+    width: 100%;
+    height: 69px;
+    z-index: 1;
+    align-items: center;
+    border-bottom: 1px solid steelblue;         
+    }
+  header img  {
+    padding-left: 10px;
+    height: 50px;  
+  }
+  nav  {
+    text-align: right;
+    flex-grow: 1;
+  }
+  nav span  {
+    display: inline-block;
+    padding: 20px 20px 10px;
+  }
+
+  #ourVision  {
+    background-image: url("/images/background-img.jpg");
+    background-size: cover;
+    height: 700px;
+    padding-top: 70px;  
+  }
+  #ourVision .description  {
+    width: 100%;
+    margin: auto;
+    background-color: black;
+  }
+  
+  .expertise  {
+    padding: 5px;
+  }
+  .expertise img  {
+    display: block;
+    height: 200px;
+    margin: 10px;
+  }
+  .expertise span  {
+    display: block;
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+  }
+  #expertises  {
+    height: 700px;
+    width: 1000px;
+    margin: auto;
+    padding-top: 70px;
+  }
+  #expertises p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 0.6px;    
+    display: contents;
+    justify-content: center;
+    font-style: italic;
+  } 
+
+  .flex-container.team-member  {     
+    display: flex;
+    padding-top: 4px;     
+    width: 100%;
+    align-content: space-around;    
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: black ;
+    max-height: fit-content;
+          
+  }  
+  
+ .team-member  {  
+   opacity: 1.0;
+   padding: 2px;
+   margin: 6px 8px;
+   flex-basis: 270px;  
+   display: inline-block;
+   line-height: 0.8px;   
+   justify-content: center; 
+   font-weight: bold;    
+ }
+ .team-member h6  {
+  font-style: italic;
+ } 
+ 
+ .team-member img  {
+    display: inline-block;
+    height: 200px;
+    margin: 4px;
+  }
+ 
+ #team-members .flex-container  {
+   margin: 6px 8px;
+   width: 1000px;
+   max-height: fit-content; 
+   padding-bottom: 100px;       
+ }   
+  #contact  {
+    height: 6px;       
+    padding-top: 0.6px;
+    line-height: 0.4px;               
+  }
+  #contact p  {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 0.6px;
+    padding: 0.5px;
+    display: contents;
+    justify-content: center;
+  }
+
+  footer h6  {
+    margin-left: 20px;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;    
+  }
+  footer h5  {
+    font-style: italic;
+  } 
+  
+  footer  {
+    position: fixed;
+    height: 100px;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    background-color: black;
+    color: steelblue;
+    text-align: center;
+  }
+  
