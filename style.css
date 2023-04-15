@@ -42,7 +42,7 @@ body {
   }
 
   #ourVision  {
-    background-image: url("../images/background-img.jpg");
+    background-image: url("./images/background-img.jpg");
     background-size: cover;
     height: 700px;
     padding-top: 70px;  
